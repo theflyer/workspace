@@ -1,0 +1,37 @@
+package practice;
+
+public class practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a = "abc";
+		
+		String b = "zqf";
+		
+		String p = m(a,b);
+		System.out.println(p);
+		
+	
+		
+	
+		
+	}
+	
+	static String  m (String a, String b){
+		int n = a.length();
+		int r = b.length();
+		char[] a_ar= a.toCharArray();
+		char[] b_ar = b.toCharArray();
+		//System.out.println(n);
+		String s = "";
+		int i = 0 ;
+		while (i != n && i != r ){
+			//s = new StringBuilder().append(a_ar[i]).append(b_ar[i]).toString();
+			s += a_ar[i];
+			s += b_ar[i];
+			i++;
+		}
+		return s;
+	}
+
+}

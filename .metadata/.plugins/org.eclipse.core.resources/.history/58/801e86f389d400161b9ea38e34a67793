@@ -1,0 +1,20 @@
+package practice;
+
+public class practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a = "abc";
+		
+		String b = "bcd";
+		
+		
+		char[] a_ar= a.toCharArray();
+		char[] b_ar = b.toCharArray();
+		
+		int n = a.length();
+		int r = b.length();
+		System.out.println(n);
+	}
+
+}

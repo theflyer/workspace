@@ -1,0 +1,29 @@
+package practice;
+
+public class practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a = "abc";
+		
+		String b = "bcd";
+		
+		
+		char[] a_ar= a.toCharArray();
+		char[] b_ar = b.toCharArray();
+		
+		int n = a.length();
+		int r = b.length();
+		//System.out.println(n);
+		String s = "";
+		int i = 0 ;
+		while (i != n && i != r ){
+			//s = new StringBuilder().append(a_ar[i]).append(b_ar[i]).toString();
+			s += a_ar[i];
+			i++;
+		}
+		System.out.println(s);
+		
+	}
+
+}
